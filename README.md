@@ -4,10 +4,10 @@ Access library, command line tool and daemon for the LiFePO4wered/Pi module
 ## Installation
 
 Starting from a fresh Raspbian Jessie Lite image (tested with 2016-02-09 version),
-first install git:
+first install build-essential and git:
 
 ```
-sudo apt-get -y install git
+sudo apt-get -y install build-essential git
 ```
 
 In a directory where you keep source code, clone the LiFePO4wered-Pi repository
@@ -78,3 +78,5 @@ the LiFePO4wered/Pi, always test your changes thoroughly before writing them to
 flash.  If you made a change that makes your LiFePO4wered/Pi not work correctly,
 and it is not written to flash, you can undo it by unplugging the LiFePO4wered/Pi
 and removing the LiFePO4 cell from the battery holder for a couple of seconds.
+
+Check out the product brief for the [LiFePO4wered/Pi](http://lifepo4wered.com/files/LiFePO4wered-Pi-Product-Brief.pdf) and [LiFePO4wered/Pi3](http://lifepo4wered.com/files/LiFePO4wered-Pi3-Product-Brief.pdf) for a complete list of registers and options available in each product.
