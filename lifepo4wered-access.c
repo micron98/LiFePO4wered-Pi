@@ -8,7 +8,7 @@
 #include <sys/ioctl.h>
 #include <fcntl.h>
 #include <sys/file.h>
-#include <linux/i2c.h>
+//#include <linux/i2c.h>
 #include <linux/i2c-dev.h>
 #include <string.h>
 #include <unistd.h>
